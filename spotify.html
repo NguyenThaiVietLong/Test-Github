@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thông tin nghệ sĩ Spotify</title>
+    <link rel="stylesheet" href="spotify.css">
+</head>
+<body>
+    <div class="search-form">
+        <input type="text" id="artistInput" placeholder="Nhập ID nghệ sĩ">
+        <button onclick="searchArtist()">Tìm kiếm</button>
+    </div>
+
+    <div id="artistContainer" class="artist-card">
+        <p>Đang tải...</p>
+    </div>
+
+    <div class="search-form">
+        <input type="text" id="albumInput" placeholder="Nhập ID album">
+        <button onclick="searchAlbum()">Tìm Album</button>
+    </div>
+
+    <div id="albumContainer" class="album-container">
+        <p>Nhập ID album để xem thông tin</p>
+    </div>
+
+    <div id="albumsContainer" class="albums-container">
+        <p>Đang tải danh sách album...</p>
+    </div>
+</body>
+<script src="spotify.js"></script>
+</html>
